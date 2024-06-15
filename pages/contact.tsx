@@ -7,3 +7,4 @@ const contact = (props: Props) => {
 };
 
 export default contact;
+
