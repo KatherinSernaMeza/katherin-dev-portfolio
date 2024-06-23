@@ -1,0 +1,15 @@
+.dark {
+  --background: 40, 44, 81;
+  --text: 255, 255, 255;
+}
+
+.light {
+  --background: 255, 255, 255;
+  --text: 0 0 0;
+}
+
+body{}
+
+section{
+    height: 100vh;
+}

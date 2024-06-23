@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.dark {
+  --background: 0, 0, 0;
+  --textcolor: 255, 255, 255;
+}
+
+.light {
+  --background: 255, 255, 255;
+  --textcolor:  0, 0, 0;
+}
+
+body {
+  @apply bg-background text-textcolor;
+}
+
+section{
+    height: 100vh;
+}
+#layout{
+  max-width: 1168px;
+  margin: auto;
+}
+main{
+}
