@@ -13,14 +13,6 @@ export default function Home() {
   return (
     <>
       <div>
-        <a href="#contact">Contacto</a>
-        <a href="#experience">Experiencia</a>
-        <a href="#frontpage">Portada</a>
-        <a href="#projects">Proyectos</a>
-        <a href="#skills" className="">Habilidades</a>
-        <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
         <FrontPage />
         <Projects />
         <Skills />

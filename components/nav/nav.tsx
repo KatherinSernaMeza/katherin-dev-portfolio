@@ -1,9 +1,18 @@
-import React from 'react'
+import React from "react";
 
-function nav() {
+function Nav() {
+  const itemNav = ["Projects", "Skills", "Experience", "Contact"];
+  const listItems = itemNav.map((item) => (
+    <li>
+      {" "}
+      <a href={`#${item}`}> {item}</a>
+    </li>
+  ));
   return (
-    <div>nav</div>
-  )
+    <nav className="nav">
+      <ul className="nav__ul">{listItems}</ul>
+    </nav>
+  );
 }
 
-export default nav
+export default Nav;
