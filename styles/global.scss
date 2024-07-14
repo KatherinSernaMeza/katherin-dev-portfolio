@@ -1,7 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+@import './main';
 .dark {
   --background: 0, 0, 0;
   --textcolor: 255, 255, 255;
@@ -24,4 +24,24 @@ section{
   margin: auto;
 }
 main{
+}
+
+
+.layout {
+	&__grid-templateLayout {
+		display: grid !important;
+		grid-template-areas:
+			'Nav'
+			'frontpage' !important;
+		grid-template-rows: auto 1fr !important;
+		height: 100vh !important;
+		width: 100% !important;
+	}
+}
+
+Nav {
+  grid-area: Nav;
+} 
+#frontpage {
+  grid-area: frontpage;
 }

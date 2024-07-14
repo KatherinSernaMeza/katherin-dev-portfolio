@@ -1,0 +1,11 @@
+.nav {
+  &__ul {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 23px;
+    border-bottom: 1px solid;
+  }
+  &__li {
+    padding: 30px;
+  }
+}
