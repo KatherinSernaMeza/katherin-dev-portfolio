@@ -9,10 +9,8 @@ type LayoutProps = {
 function layout({ children }: LayoutProps) {
   return (
     <div id="layout">
-      <div className="layout__grid-templateLayout">
       <Nav />
-      <FrontPage/>
-      </div>
+      <FrontPage />
       <main>{children}</main>
       <Footer />
     </div>
