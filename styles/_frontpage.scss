@@ -8,22 +8,25 @@
 }
 
 .section-one {
-  grid-area: sectionone;
-  width: 100% !important;
-  height: 100% !important;
   display: flex;
+  justify-content: center;
+  align-items: flex-end;
   flex-direction: column;
-  margin-top: 60%;
 }
 .section-two {
-  grid-area: sectiontwo;
-  width: 100% !important;
-  height: 100% !important;
-  margin-top: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .avatar {
-  width: 100% !important;
+  width: 50% !important;
+  margin: 60px;
+}
+.title-container {
+  margin-right: 100px;
+  display: flex;
+  flex-direction: column;
 }
 .title {
   font-size: 4rem;
@@ -31,4 +34,7 @@
 }
 .subtitle {
   font-size: 2rem;
+}
+.bg-text{
+  color: white;
 }

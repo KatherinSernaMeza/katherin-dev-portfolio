@@ -39,6 +39,12 @@ main{
 		height: 100vh !important;
 		width: 100% !important;
 	}
+
+  &__cover{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
 }
 
 Nav {
