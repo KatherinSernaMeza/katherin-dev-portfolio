@@ -14,12 +14,10 @@ function FrontPage() {
     <div id="frontpage">
       <div className="section-one">
         <div className="title-container">
-          {/* <WordFadeIn words={data.titulo} className="bg-text" /> */}
-          {/* <span className="subtitle">{data.subtitulo}</span> */}
-          <TypingAnimation
-            className="text-7xl pb-4"
-            text={data.titulo}
-          />
+          <div className="text-7xl pb-4 font-bold bg-clip-text text-transparent bg-gradient-to-br from-blue-600 to-purple-800">
+            {" "}
+            {data.titulo}
+          </div>
           <SparklesText text={data.subtitulo} className="subtitle" />
         </div>
       </div>{" "}
