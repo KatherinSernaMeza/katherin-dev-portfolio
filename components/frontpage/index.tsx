@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import avatar from "@/assets/img/avatar.jpg";
 import WordFadeIn from "@/components/magicui/word-fade-in";
 import TypingAnimation from "@/components/magicui/typing-animation";
 import SparklesText from "@/components/magicui/sparkles-text";
@@ -8,7 +9,7 @@ function FrontPage() {
   const data = {
     titulo: "Hola soy Katherin!",
     subtitulo: "Desarrolladora Front End",
-    avatar: require("@/assets/img/avatar.jpg"),
+    avatar: avatar,
   };
   return (
     <div id="frontpage">
