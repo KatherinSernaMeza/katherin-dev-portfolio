@@ -9,8 +9,7 @@ const svgs = loadSvgs(require.context('../../assets/svg', false, /\.svg$/));
 const SvgGallery: React.FC = () => {
   return (
     <div>
-      <h1>Galería de SVGs</h1>
-      <div style={{ display: 'flex', flexWrap: 'wrap' }}>
+      <div className="pt-12" style={{ display: 'flex', flexWrap: 'wrap' }}>
         {Object.keys(svgs).map((key) => (
           <div key={key} style={{ margin: '10px', textAlign: 'center' }}>
             <img src={svgs[key].src} alt={key} style={{ width: '100px', height: '100px' }} />

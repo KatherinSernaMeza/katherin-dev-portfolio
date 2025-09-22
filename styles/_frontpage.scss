@@ -5,6 +5,13 @@
   grid-template-columns: 1fr 1fr !important; /* Esto asegura que hay dos columnas de igual ancho */
   width: 100% !important;
   height: 100% !important;
+
+   @media (max-width: 1024px) {
+    grid-template-columns: 1fr !important;
+    grid-template-areas:
+      "sectionone"
+      "sectiontwo" !important;
+  }
 }
 
 .section-one {
@@ -20,8 +27,8 @@
 }
 
 .avatar {
-  width: 50% !important;
-  margin: 60px;
+  width: 70% !important;
+  margin: auto;
 }
 .title-container {
   margin-right: 100px;
